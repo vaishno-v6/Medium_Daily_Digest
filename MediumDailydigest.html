@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medium Daily Digest</title>
+  <style>
+    .body {
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 40px;
+      color: black;
+
+    }
+
+    .container {
+      font-family: sans-serif;
+      background-color: #fff;
+      max-width: 700px;
+      margin: auto;
+      padding: 30px;
+      box-shadow: 0 0 5px rgba(0, 0, 0);
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px
+    }
+
+    .avtar {
+      background-color: blue;
+      color: white;
+      font-weight: bold;
+      border-radius: 60%;
+      height: 40px;
+      width: 40px;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      margin-right: 10px;
+      display: flex;
+    }
+
+    .info {
+      margin: 0;
+      line-height: 0px;
+    }
+
+    .green {
+      color: green;
+    }
+
+    .medium {
+      font-family: Georgia, serif;
+      font-size: 40px;
+    }
+
+    .bold {
+      font-weight: 200;
+    }
+
+    .highlight {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    /*box1*/
+    .box1 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+
+    .box1-content {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .b1 {
+      font-size: 13px;
+      color: gray;
+      margin-bottom: 5px;
+    }
+
+    .b2 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .b3 {
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 8px;
+    }
+
+    .b4 {
+      word-spacing: 20px;
+    }
+
+    .b5 {
+      word-spacing: 2px;
+    }
+
+    .box1 img {
+      width: 120px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    /*box2*/
+    .box2 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+
+    .box2-content {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .box2 img {
+      width: 120px;
+      height: 80px;
+      border-radius: 4px;
+    }
+
+    /*box3*/
+    .box3 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+
+    .box3-content {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .box3 img {
+      width: 120px;
+      height: 80px;
+      border-radius: 4px;
+    }
+
+    /*box4*/
+    .box4 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+
+    .box4-content {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .box4 img {
+      width: 120px;
+      height: 80px;
+      border-radius: 4px;
+    }
+
+    /*box5*/
+
+    .box5 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+
+    .box5-content {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .box5 img {
+      width: 120px;
+      height: 80px;
+      border-radius: 4px;
+    }
+
+    /*box6*/
+    .box6 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+
+    .box6-content {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .box6 img {
+      width: 120px;
+      height: 80px;
+      border-radius: 4px;
+    }
+
+    /*box7*/
+    .box7 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+
+    .box7-content {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .box7 img {
+      width: 120px;
+      height: 80px;
+      border-radius: 4px;
+    }
+
+    /*footer1*/
+    .details {
+      margin-top: 40px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .greenbutton {
+      background-color: green;
+      border: none;
+      color: #fff;
+      border-radius: 30px;
+      font-size: 18px;
+      padding: 15px 30px;
+    }
+
+    /*black-box*/
+    .black-box {
+
+      background-color: black;
+      color: white;
+      text-align: center;
+      margin-top: 30px;
+      padding: 15px 15px;
+    }
+
+    .appstore {
+      height: 70px;
+    }
+
+    .googleplay {
+      height: 55px;
+      margin: 8px;
+    }
+
+    .black-box a {
+      font-size: 13px;
+      color: #fff;
+      margin: 1px;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Header-->
+  <div class="container">
+    <div class="profile">
+      <div class="avtar">V</div>
+      <div class="info">
+        <P>Stories for<strong> VOvhal</strong></P>
+        <p style="font-size: 14px; color:gray;">@rkolekar <span class="green">Become a member</span></p>
+      </div>
+    </div>
+    <h1 class="medium">Medium<span class="bold"> Daily Digest</span></h1>
+    <hr>
+    <p class="highlight">TODAY'S HIGHLIGHTS </p>
+    <hr>
+
+    <!--box1-->
+    <div class="box1">
+      <div class="box1-content">
+        <div class="b1">The NYT Open Team</div>
+        <div class="b2">Using Provocations to Shake the Status Quo</div>
+        <div class="b3">The bold approach NYT Cooking used to define a...</div>
+        <div class="b4">
+          <span class="b5">jul 22</span>
+          <span>👏70</span>
+          <span>💬1</span>
+        </div>
+      </div>
+      <img src="img/image1.jpg" alt="image1">
+    </div>
+    <hr>
+
+    <!--box2-->
+    <div class="box2">
+      <div class="box2-content">
+        <div class="b1">Jawwad Ahemed Farid in Bootcamp</div>
+        <div class="b2">Pricing Power</div>
+        <div class="b3">The no nonsense guide to pricing products</div>
+        <div class="b4">
+          <span class="b5">⭐2d ago</span>
+          <span>👏37</span>
+        </div>
+      </div>
+      <img src="img/image2.jpg" alt="image2">
+    </div>
+    <hr>
+
+    <!--box3-->
+    <div class="box3">
+      <div class="box3-content">
+        <div class="b1">Tasha Onwu in UX Collective</div>
+        <div class="b2">Layers of Law: Disigning for Justice</div>
+        <div class="b3">London goes beyond any boundary or convention...</div>
+        <div class="b4">
+          <span class="b5">4d ago</span>
+          <span>👏135</span>
+        </div>
+      </div>
+      <img src="img/image3.jpg" alt="image3">
+    </div>
+    <hr>
+
+    <!--box4-->
+    <div class="box4">
+      <div class="box4-content">
+        <div class="b1">Joe Kavanerath</div>
+        <div class="b2">Forgot SEO Everyone Does RAO.</div>
+        <div class="b3">Search Engine Optimization, or SEO in short...</div>
+        <div class="b4">
+          <span class="b5">🔥54d ago</span>
+          <span>👏1.3k</span>
+          <span>💬37</span>
+        </div>
+      </div>
+      <img src="img/image4.jpg" alt="image4">
+    </div>
+    <hr>
+
+    <!--box5-->
+    <div class="box5">
+      <div class="box5-content">
+        <div class="b1">Social Staff</div>
+        <div class="b2">The Death of Agile</div>
+        <div class="b3">Do you recall when Scrum was the range? When was...</div>
+        <div class="b4">
+          <span class="b5">4d ago</span>
+          <span>👏1.4k</span>
+          <span>💬237</span>
+        </div>
+      </div>
+      <img src="img/image5.jpg" alt="image5">
+    </div>
+    <hr>
+
+    <!--box6-->
+    <div class="box6">
+      <div class="box6-content">
+        <div class="b1">Daisy Williams in UX Collective</div>
+        <div class="b2">Click-to-cancle lost the battle</div>
+        <div class="b3">How the FTC's click-to-cancle rule might be...</div>
+        <div class="b4">
+          <span class="b5">⭐1d ago</span>
+          <span>👏92</span>
+        </div>
+      </div>
+      <img src="img/image6.jpg" alt="image6">
+    </div>
+    <hr>
+
+    <!--box7-->
+    <div class="box7">
+      <div class="box7-content">
+        <div class="b1">Scripting Soul</div>
+        <div class="b2">How to Think like a Front-End Architect</div>
+        <div class="b3">Much of us start out building components,But as the...</div>
+        <div class="b4">
+          <span class="b5">⭐2d ago</span>
+          <span>👏139</span>
+        </div>
+      </div>
+      <img src="img/image7.jpg" alt="image7">
+    </div>
+    <hr><br>
+    <hr>
+
+    <!--footer1-->
+    <div class="details">
+      <p>See More of what you like and less of what you don't.</p>
+      <button class="greenbutton">Control your recommendation</button>
+    </div>
+
+    <!--footer2-->
+    <div class="black-box">
+      <p><strong>Read From Anywhere.</strong></p>
+      <div class="img">
+        <img src="img/App-Store-Logo-PNG-Free-Image.png" alt="appstore" class="appstore">
+        <img src="img/get-it-on-google-play.png" alt="google play" class="googleplay">
+      </div>
+      <p>Sent by Medium · 3500 south DuPath Highway,suite IQ-101,Dover,DE199001</p>
+      <p><a href="#">Unsubscribe</a> ·
+        <a href="#">Switch to the weekly digest</a> ·
+        <a href="#">Careers</a> ·
+        <a href="#">Help Center</a> ·
+        <a href="#">Privacy Policy</a> ·
+        <a href="#">Terms and service</a>
+      </p>
+    </div>
+  </div>
+
+  </div>
+</body>
+
+</html>
